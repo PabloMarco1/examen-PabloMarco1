@@ -10,7 +10,7 @@ public class Main {
         flota.add(new Coche("1234ABC", 40));
         flota.add(new Furgoneta("5678DEF", 60));
 
-        int dias = 3;
+        int dias = 7;
         double total = 0;
         for (Vehiculo v : flota) {
             double precio = v.precioAlquiler(dias);
